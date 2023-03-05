@@ -116,6 +116,9 @@ svn export https://github.com/immortalwrt/luci/branches/master/applications/luci
 # IPv6 Helper
 svn export https://github.com/immortalwrt/immortalwrt/trunk/package/emortal/ipv6-helper package/addon/ipv6-helper
 
+# luci-app-atinout
+svn export https://github.com/4IceG/luci-app-atinout-mod/trunk/luci-app-atinout feeds/luci/applications/luci-app-atinout
+
 # Change "Allow connection to 65535"
 sed -i 's/16384/65535/g' package/kernel/linux/files/sysctl-nf-conntrack.conf
 
