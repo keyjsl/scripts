@@ -109,7 +109,7 @@ svn export https://github.com/coolsnowwolf/luci/trunk/applications/luci-app-ramf
 svn export https://github.com/fw876/helloworld/trunk/luci-app-ssr-plus feeds/luci/applications/luci-app-ssr-plus
 
 # luci-app-atinout
-git clone --single-branch --depth 1 -b dev https://github.com/4IceG/luci-app-atinout-mod.git feeds/luci/applications/luci-app-atinout-mod
+git clone -b main --depth 1 https://github.com/4IceG/luci-app-atinout-mod.git feeds/luci/applications/luci-app-atinout-mod
 
 #luci-app-turboacc
 #svn export https://github.com/immortalwrt/luci/trunk/applications/luci-app-turboacc feeds/luci/applications/luci-app-turboacc
