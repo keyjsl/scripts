@@ -66,9 +66,6 @@ svn export https://github.com/immortalwrt/packages/trunk/net/dnsforwarder feeds/
 # luci-app-passwall
 svn export https://github.com/keyjsl/openwrt-passwall/branches/luci-nodns-xtls/luci-app-passwall feeds/luci/applications/luci-app-passwall
 
-# Change "Allow connection to 65535"
-sed -i 's/16384/65535/g' package/kernel/linux/files/sysctl-nf-conntrack.conf
-
 # Update and Install Feeds
 ./scripts/feeds update -a
 ./scripts/feeds install -a -f
